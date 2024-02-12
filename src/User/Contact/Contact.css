@@ -1,0 +1,13 @@
+/* Contact.css */
+
+.contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Align text center */
+  }
+  
+  .contactus .col-md-4 {
+    max-width: 400px; /* Set maximum width to prevent content from stretching too wide */
+  }
+  

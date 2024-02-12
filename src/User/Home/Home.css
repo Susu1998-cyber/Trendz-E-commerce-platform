@@ -1,0 +1,162 @@
+/*  
+.home-container {
+  padding: 20px;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.carousel-item img {
+  height: 400px;  
+  object-fit: cover;  
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);  
+  padding: 20px;
+}
+
+.latest-collection-button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+ 
+.left img,
+.right img,
+.col-6 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+ 
+.left,
+.right {
+  margin-bottom: 20px;
+}
+
+ 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ 
+.product-details {
+  text-align: center;
+}
+
+.product-details h3 {
+  margin-top: 10px;
+}
+
+.product-details p {
+  margin: 5px 0;
+}
+
+.product-details button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.product-details button:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 767px) {
+  .right {
+    margin-top: 20px; 
+  }
+} */
+/* Home.css */
+
+.home-container {
+  padding: 20px;
+}
+
+.carousel {
+  margin-bottom: 20px;
+}
+
+.carousel-item img {
+  height: 400px; /* Adjust the height of the carousel images */
+  object-fit: cover; /* Ensure the images cover the entire carousel area */
+}
+
+.latest-collection-button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+/* Ensure images in the grid maintain aspect ratio */
+.left img,
+.right img,
+.col-6 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Add space between left and right columns */
+.left,
+.right {
+  margin-bottom: 20px;
+}
+
+/* Better alignment for the row containing the two columns */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style product details */
+.product-details {
+  text-align: center;
+  padding: 10px;
+}
+
+.product-details h3 {
+  margin-top: 10px;
+}
+
+.product-details p {
+  margin: 5px 0;
+}
+
+.product-details button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px; /* Adjust button padding */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.product-details button:hover {
+  background-color: #0056b3;
+}
+ 
+/* .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+} */

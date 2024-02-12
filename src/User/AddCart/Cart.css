@@ -1,0 +1,92 @@
+/* Cart.css */
+
+/* General Styles */
+.pt-5 {
+    padding-top: 5rem !important;
+  }
+  
+  .pb-5 {
+    padding-bottom: 5rem !important;
+  }
+  
+  .text-center {
+    text-align: center !important;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .col-md-6 {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Additional Styles */
+  .float-right {
+    float: right;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .mb-2 {
+    margin-bottom: 2rem !important;
+  }
+  
+  .mb-5 {
+    margin-bottom: 5rem !important;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  /* Adjustments for smaller devices */
+  @media (max-width: 575px) {
+    .table-responsive {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+  }
+  
+  /* Additional Adjustments */
+  .row.mb-4 {
+    margin-bottom: 4rem !important;
+  }
+  
+  .d-flex {
+    display: flex !important;
+  }
+  
+  .align-items-center {
+    align-items: center !important;
+  }
+  
+  .btn-lg {
+    padding: 0.5rem 1rem !important;
+    font-size: 1.25rem !important;
+  }
+  
+  .pl-5 {
+    padding-left: 3rem !important;
+  }
+  
+  .pr-5 {
+    padding-right: 3rem !important;
+  }
+  
+  .order-md-2 {
+    order: 2 !important;
+  }
+  
+  .order-md-1 {
+    order: 1 !important;
+  }
+  
+  /* Optional: Add more styles as needed */
+  
+ 
+ 
