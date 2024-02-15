@@ -10,7 +10,7 @@ function generateUniqueId() {
 
 //Route to add new product
 router.post('/addproduct',async (req,res) => {
-    const { productName, categoryId, price, rating, review, vendorName, warranty,productImage } = req.body
+    const { productName, categoryId, price, rating, review, vendorName, warranty,productImage, description } = req.body
 
     try{
         console.log('Received data:',req.body);
@@ -23,7 +23,7 @@ router.post('/addproduct',async (req,res) => {
         if(existingProduct){
             return res.status(400).json({error:'Product with this ID already exists'})
         }
-        const product = new Product({id, productName, categoryId, price, rating, review, vendorName, warranty,productImage})
+        const product = new Product({id, productName, categoryId, price, rating, review, vendorName, warranty,productImage, description})
         await product.save()
         
         res.status(201).json({message:'Product added successfully', product})
