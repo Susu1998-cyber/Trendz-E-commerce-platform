@@ -2,10 +2,14 @@ const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
 const bodyParser = require('body-parser')
+require('dotenv').config();
+
 
 const userRegistrationRoutes = require('./routes/userRegistrationRoutes')
 const userLoginRoutes = require('./routes/userLoginRoutes')
 const productRoutes = require('./routes/productRoutes')
+const razorpayRouter = require('./routes/razorpayRoutes')
+ 
 const app = express()
 app.use(express.json())
 app.use(bodyParser.json())
@@ -23,6 +27,8 @@ mongoose.connect('mongodb://localhost:27017/ecommerceplatform',{useNewUrlParser:
 app.use('/api/user/register',userRegistrationRoutes)
 app.use('/api/user/login',userLoginRoutes)
 app.use('/api/admin/Product',productRoutes)
+app.use('/razorpay',razorpayRouter)
+ 
 
 app.listen(5000,() => {
     console.log(`Server is running on port:${5000}`);
