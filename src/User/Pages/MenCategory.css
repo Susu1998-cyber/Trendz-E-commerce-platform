@@ -1,0 +1,36 @@
+ /* MenCategory.css */
+
+.men-category-container {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: calc(30% - 20px); /* Adjust the width as needed, considering margin and border */
+  box-sizing: border-box;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+  .product-item {
+    width: calc(45% - 20px); /* Adjust the width for smaller screens */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .product-item {
+    width: calc(90% - 20px); /* Adjust the width for even smaller screens */
+  }
+}

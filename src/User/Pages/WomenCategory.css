@@ -1,0 +1,32 @@
+/* WomenCategory.css */
+
+.women-category-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px; /* Adjust margin as needed */
+  }
+  
+  .product-item {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd; /* Add a border for image */
+    border-radius: 8px; /* Optional: Add border-radius for a rounded appearance */
+  }
+  
+  .product-item p {
+    margin: 8px 0;
+  }
+  
+  /* Optional: Add styles for hover effect */
+  .product-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
